@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>BIOLOGICA-ADMIN-PANEL | Products</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <img src="../Biologica - Admin Panel/img/Logo-footer.png" width="100%" alt="Logo">
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0 mb-5">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="flying-image.html">
+                    <i class="fas fa-fw fa-plane"></i>
+                    <span>Flying Image</span></a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="product.html">
+                    <i class="fas fa-fw fa-box"></i>
+                    <span>Products Page</span></a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">
+                    <i class="fas fa-fw fa-list-alt"></i>
+                    <span>Contact Page</span></a>
+            </li>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                    <form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+                            <h5 class="m-0">Welcome To Biologica Admin Panel</h5>
+                        </div>
+                    </form>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        <li class="nav-item dropdown no-arrow d-sm-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-search fa-fw"></i>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                                aria-labelledby="searchDropdown">
+                                <form class="form-inline mr-auto w-100 navbar-search">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control bg-light border-0 small"
+                                            placeholder="Search for..." aria-label="Search"
+                                            aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
+                                <img class="img-profile rounded-circle"
+                                    src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#profile">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Edit Profile
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between my-5">
+                        <h1 class="h3 mb-0 text-gray-800">Products</h1>
+                        <a href="#" class="d-none d-sm-inline-block product-button btn btn-sm btn-primary shadow-sm" data-toggle="modal" data-target="#add-products"><i
+                                class="fas fa-plus pr-2"></i> Add Product</a>
+                    </div>
+
+                    <!-- Product Cards -->
+                    <div class="product-card-1 mt-5">
+
+                        <div class="row">
+
+                            <div class="col-lg-4 mb-5 px-5">
+                                <div class="card-1">
+                                    <div class="img mb-5">
+                                        <img src="./img/product/Photo-1.png" width="100%" alt="Product-1">
+                                    </div>
+                                    <div class="text">
+                                        <h5>RESPIRATORY DISEASES</h5>
+                                        <p>Chronic respiratory diseases affect nearly 550 million worldwide. Although these conditions are incurable, treatment is available to manage symptoms. Rapid diagnostic tests are crucial in the early detection of an exacerbation, thereby limiting the potential of unfavourable health consequences and improving the patient’s quality of life.</p>
+                                        <button class="btn btn-outline-secondary mr-1" data-toggle="modal" data-target="#view-products"><i
+                                            class="fas fa-eye pr-1"></i> View</button>
+                                        <button class="btn btn-outline-info ml-1" data-toggle="modal" data-target="#edit-products"><i
+                                            class="fas fa-pen pr-1"></i> Edit</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-5 px-5">
+                                <div class="card-2">
+                                    <div class="img mb-5">
+                                        <img src="./img/product/Photo-2.png" width="100%" alt="Product-2">
+                                    </div>
+                                    <div class="text">
+                                        <h5>INFECTIOUS DISEASES</h5>
+                                        <p>Lateral flow tests are widely seen as vital tools in the fight against infectious disease. Rapid, point-of-cares tests enable health care workers to make quick decisions near the patient. This can be especially important for life threatening diseases like sepsis. It is also critical in lower resource settings, where access to labs is limited. People shouldn't have to wait days to know what is ailing them.</p>
+                                        <button class="btn btn-outline-secondary mr-1" data-toggle="modal" data-target="#view-products"><i
+                                            class="fas fa-eye pr-1"></i> View</button>
+                                        <button class="btn btn-outline-info ml-1" data-toggle="modal" data-target="#edit-products"><i
+                                            class="fas fa-pen pr-1"></i> Edit</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-5 px-5">
+                                <div class="card-3">
+                                    <div class="img mb-5">
+                                        <img src="./img/product/Photo-3.png" width="100%" alt="Product-1">
+                                    </div>
+                                    <div class="text">
+                                        <h5>EPIDEMICS</h5>
+                                        <p>Chronic respiratory diseases affect nearly 550 million worldwide. Although these conditions are incurable, treatment is available to manage symptoms. Rapid diagnostic tests are crucial in the early detection of an exacerbation, thereby limiting the potential of unfavourable health consequences and improving the patient’s quality of life.</p>
+                                        <button class="btn btn-outline-secondary mr-1" data-toggle="modal" data-target="#view-products"><i
+                                            class="fas fa-eye pr-1"></i> View</button>
+                                        <button class="btn btn-outline-info ml-1" data-toggle="modal" data-target="#edit-products"><i
+                                            class="fas fa-pen pr-1"></i> Edit</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-lg-4 mb-5 px-5">
+                                <div class="card-4">
+                                    <div class="img mb-5">
+                                        <img src="./img/product/Photo-1.png" width="100%" alt="Product-1">
+                                    </div>
+                                    <div class="text">
+                                        <h5>NEGLECTED DISEASES</h5>
+                                        <p>Neglected diseases affect more than 1.7 billion people, blighting communities across the Global South, and are particularly prevalent in tropical regions that lack basic sanitation. NTDs affect people across all age groups, from impairing children’s development to limiting workplace productivity; therefore, trapping communities into a negative cycle of poverty and poor health.</p>
+                                        <button class="btn btn-outline-secondary mr-1" data-toggle="modal" data-target="#view-products"><i
+                                            class="fas fa-eye pr-1"></i> View</button>
+                                        <button class="btn btn-outline-info ml-1" data-toggle="modal" data-target="#edit-products"><i
+                                            class="fas fa-pen pr-1"></i> Edit</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-5 px-5">
+                                <div class="card-5">
+                                    <div class="img mb-5">
+                                        <img src="./img/product/Photo-2.png" width="100%" alt="Product-2">
+                                    </div>
+                                    <div class="text">
+                                        <h5>WOMEN'S HEALTH</h5>
+                                        <p>We are committed to the optimum health for women at every stage of her life and believe this goal is attainable with rapid diagnostic tests. We are a trusted partner that healthcare professionals and patients can depend on, when it comes to developing women’s health diagnostics.</p>
+                                        <button class="btn btn-outline-secondary mr-1" data-toggle="modal" data-target="#view-products"><i
+                                            class="fas fa-eye pr-1"></i> View</button>
+                                        <button class="btn btn-outline-info ml-1" data-toggle="modal" data-target="#edit-products"><i
+                                            class="fas fa-pen pr-1"></i> Edit</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-5 px-5">
+                                <div class="card-6">
+                                    <div class="img mb-5">
+                                        <img src="./img/product/Photo-3.png" width="100%" alt="Product-1">
+                                    </div>
+                                    <div class="text">
+                                        <h5>VETERINARY, FOOD SECURITY AND THE ENVIRONMENT</h5>
+                                        <p>To meet global food security and reduce carbon footprint, the drive is to focus on Intensification of farming. Concentrating crops and animals in defined space requires innovative sustainable strategies to retain food safety. Early, cost-effective, accurate diagnosis applied at critical points can inform early disease outbreaks and drive the correct control strategy...</p>
+                                        <button class="btn btn-outline-secondary mr-1" data-toggle="modal" data-target="#view-products"><i
+                                            class="fas fa-eye pr-1"></i> View</button>
+                                        <button class="btn btn-outline-info ml-1" data-toggle="modal" data-target="#edit-products"><i
+                                            class="fas fa-pen pr-1"></i> Edit</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Add Product Modal -->
+    <div class="modal fade" id="add-products" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Product</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-card">
+                        <div class="img mb-5">
+                            <img src="./img/upload.png" alt="Products">
+                        </div>
+                        <div class="form">
+                            <form>
+    
+                                <div class="row">
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter Sub-Heading (Optional)" id="name">
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter Heading"
+                                            id="heading">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 mb-3">
+                                        <textarea class="form-control" rows="4" id="comment" placeholder="Enter Description"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter Button Link"
+                                            id="button">
+                                        <small id="buttonhelp" class="form-text text-muted">Redirect Page Link.</small>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter Button Text"
+                                            id="button">
+                                    </div>
+                                </div>
+    
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-success" type="button">Add Product</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Product Modal -->
+    <div class="modal fade" id="edit-products" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Product</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-card">
+                        <div class="img mb-5">
+                            <img src="./img/product/Photo-1.png" alt="Products">
+                        </div>
+                        <div class="form">
+                            <form>
+    
+                                <div class="row">
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter Sub-Heading (Optional)" id="name">
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter Heading"
+                                            id="heading">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 mb-3">
+                                        <textarea class="form-control" rows="4" id="comment" placeholder="Enter Description"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter Button Link"
+                                            id="button">
+                                        <small id="buttonhelp" class="form-text text-muted">Redirect Page Link.</small>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter Button Text"
+                                            id="button">
+                                    </div>
+                                </div>
+    
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-success" type="button">Save Changes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- View Product Modal -->
+    <div class="modal fade" id="view-products" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">View Product</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-card">
+                        <div class="img mb-5">
+                            <img src="./img/product/Photo-1.png" alt="Products">
+                        </div>
+                        <div class="text">
+                            <h5>CAPABILITIES</h5>
+                            <h2>Respiratory Diseases</h2>
+                            <p>Chronic respiratory diseases affect nearly 550 million worldwide. Although these conditions are incurable, treatment is available to manage symptoms. Rapid diagnostic tests are crucial in the early detection of an exacerbation, thereby limiting the potential of unfavourable health consequences and improving the patient’s quality of life.</p>
+                            <a href="#">See More --></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-danger" type="button">Delete Product</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile Modal -->
+    <div class="modal fade" id="profile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Profile</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-card">
+                        <div class="img mb-5">
+                            <img src="./img/undraw_profile.svg" alt="Profile">
+                        </div>
+                        <div class="form">
+                            <form>
+    
+                                <div class="row">
+                                    <div class="col-lg-12 mb-3">
+                                        <input type="text" class="form-control" placeholder="Enter Full Name" id="name">
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="col-lg-6 mb-3">
+                                        <input type="email" class="form-control" placeholder="Enter Email Address"
+                                            id="email">
+                                    </div>
+                                    <div class="col-lg-6 mb-3">
+                                        <input type="tel" class="form-control" placeholder="Enter Phone No" id="number">
+                                    </div>
+                                </div>
+    
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-success" type="button">Save Changes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Are You Sure To Logout? </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-danger" type="button">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+</body>
+
+</html>
