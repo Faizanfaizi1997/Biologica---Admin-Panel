@@ -54,3 +54,13 @@
   });
 
 })(jQuery); // End of use strict
+
+// Search
+$(document).ready(function(){
+  $("#input").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#flying-image .col-lg-4").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
