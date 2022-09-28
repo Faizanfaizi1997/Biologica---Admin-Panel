@@ -12,7 +12,7 @@
     <title>BIOLOGICA-ADMIN-PANEL | Contact-Us</title>
 
     <!-- Custom fonts for this template-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -153,89 +153,187 @@
                                 class="fas fa-eye pr-2"></i> View Detail</a> -->
                     </div>
 
-                    <!-- Table Contact Start -->
-                    <div class="table-responsive d-flex align-items-center text-center">
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Full Name</th>
-                                    <th>Company Name</th>
-                                    <th>Telephone No</th>
-                                    <th>Email Address</th>
-                                    <th>Country</th>
-                                    <th>Interested In</th>
-                                    <th>Messages</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Muhammad Ahmer</td>
-                                    <td>M.A.I</td>
-                                    <td>0340-1234567</td>
-                                    <td>ahmer@gmail.com</td>
-                                    <td>Pakistan</td>
-                                    <td>Test</td>
-                                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
-                                    <td>
-                                        <button class="btn btn-outline-danger" data-toggle="modal" data-target="#confirm-delete">Delete</button>
-                                    </td>
+                    <!-- Card Contact Start -->
+                    <div id="contact-card">
 
-                                </tr>
+                        <div class="row">
 
-                                <tr>
-                                    <td>2</td>
-                                    <td>Muhammad Faizan Sarwar</td>
-                                    <td>M.F.S</td>
-                                    <td>0340-1234567</td>
-                                    <td>muhammadfaizansarwar@gmail.com</td>
-                                    <td>Pakistan</td>
-                                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
-                                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
-                                    <td><button class="btn btn-outline-danger" data-toggle="modal" data-target="#confirm-delete">Delete</button></td>
-                                </tr>
+                            <div class="col-lg-6 px-4">
 
-                                <tr>
-                                    <td>3</td>
-                                    <td>Muhammad Liaquat</td>
-                                    <td>M.L</td>
-                                    <td>0340-1234567</td>
-                                    <td>liaquat@gmail.com</td>
-                                    <td>Pakistan</td>
-                                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
-                                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
-                                    <td><button class="btn btn-outline-danger" data-toggle="modal" data-target="#confirm-delete">Delete</button></td>
-                                </tr>
+                                <div class="message-card">
+                                    
+                                    <div class="icon text-center mt-3 mb-5">
 
-                                <tr>
-                                    <td>4</td>
-                                    <td>Muhammad Bilal</td>
-                                    <td>M.B</td>
-                                    <td>0340-1234567</td>
-                                    <td>muhammadbilal@gmail.com</td>
-                                    <td>Pakistan</td>
-                                    <td>Test</td>
-                                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
-                                    <td><button class="btn btn-outline-danger" data-toggle="modal" data-target="#confirm-delete">Delete</button></td>
-                                </tr>
+                                        <i class="fas fa-sms fa-4x text-dark-300"></i>
 
-                                <tr>
-                                    <td>5</td>
-                                    <td>Muhammad Qayyum Ali</td>
-                                    <td>M.Q.A</td>
-                                    <td>0340-1234567</td>
-                                    <td>mqayyumali@gmail.com</td>
-                                    <td>Pakistan</td>
-                                    <td>Test</td>
-                                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</td>
-                                    <td><button class="btn btn-outline-danger" data-toggle="modal" data-target="#confirm-delete">Delete</button></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                    </div>
+            
+                                    <div class="text mb-3">
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Full Name :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">Muhammad Faizan Sarwar</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Company Name :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">M-F-S</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Telephone No :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">30xx-xxxxxxx</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Email Address :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">muhammadfaizansarwar664@gmail.com</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Country :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">Pakistan</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Interested In :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">Testing</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Message :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur laborum corporis maxime eaque vel vero, voluptate repellendus, voluptas beatae commodi magnam nemo praesentium enim est, quasi aliquam iusto eius ipsa?</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="cards-button text-center mt-5 mb-3">
+                                        <button class="btn btn-outline-secondary mr-1" data-toggle="modal" data-target="#view-contact"><i
+                                            class="fas fa-eye pr-1"></i> View</button>
+                                    </div>
+            
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-lg-6 px-4">
+
+                                <div class="message-card">
+                                    
+                                    <div class="icon text-center mt-3 mb-5">
+
+                                        <i class="fas fa-sms fa-4x text-dark-300"></i>
+
+                                    </div>
+            
+                                    <div class="text mb-3">
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Full Name :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">Muhammad Faizan Sarwar</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Company Name :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">M-F-S</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Telephone No :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">30xx-xxxxxxx</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Email Address :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">muhammadfaizansarwar664@gmail.com</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Country :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">Pakistan</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Interested In :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">Testing</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <p class="mb-2">Message :</p>
+                                            </div>
+                                            <div class="col-8">
+                                                <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur laborum corporis maxime eaque vel vero, voluptate repellendus, voluptas beatae commodi magnam nemo praesentium enim est, quasi aliquam iusto eius ipsa?</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="cards-button text-center mt-5 mb-3">
+                                        <button class="btn btn-outline-secondary mr-1" data-toggle="modal" data-target="#view-contact"><i
+                                            class="fas fa-eye pr-1"></i> View</button>
+                                    </div>
+            
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
                     </div>
-                      <!-- Table Contact Start -->
+                    <!-- Card Contact End -->
 
                 </div>
                 <!-- /.container-fluid -->
@@ -263,6 +361,106 @@
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
+
+    <!-- Edit Contact Modal -->
+    <div class="modal fade" id="view-contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">View Message</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-card">
+
+                        <div class="message-card">
+                            
+                            <div class="icon text-center mt-3 mb-5">
+
+                                <i class="fas fa-sms fa-4x text-dark-300"></i>
+
+                            </div>
+    
+                            <div class="text mb-3">
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Full Name :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">Muhammad Faizan Sarwar</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Company Name :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">M-F-S</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Telephone No :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">30xx-xxxxxxx</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Email Address :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">muhammadfaizansarwar664@gmail.com</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Country :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">Pakistan</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Interested In :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">Testing</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Message :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur laborum corporis maxime eaque vel vero, voluptate repellendus, voluptas beatae commodi magnam nemo praesentium enim est, quasi aliquam iusto eius ipsa?</p>
+                                    </div>
+                                </div>
+
+                            </div>
+    
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-danger" type="button">Delete Message</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Profile Modal -->
     <div class="modal fade" id="profile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
