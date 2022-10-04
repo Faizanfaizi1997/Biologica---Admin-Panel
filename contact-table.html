@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BIOLOGICA-ADMIN-PANEL | Products</title>
+    <title>BIOLOGICA-ADMIN-PANEL | Contact-Us</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -147,85 +147,83 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between my-5">
-                        <h1 class="h3 mb-0 text-gray-800">Flying Image</h1>
-                        <a href="#" class="d-none d-sm-inline-block product-button btn btn-sm btn-primary shadow-sm" data-toggle="modal" data-target="#add-flying-image"><i
-                                class="fas fa-plus pr-2"></i> Add Flying Image</a>
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Contact Us</h1>
+                        <a href="#" class="d-none d-sm-inline-block product-button btn btn-sm btn-primary shadow-sm" data-toggle="modal" data-target="#add-contact"><i
+                                class="fas fa-plus pr-2"></i> Add Contact</a>
                     </div>
 
-                    <div class="search">
-                        <div class="input-group mb-3">
-                            <input type="text" id="input" class="form-control" placeholder="Search">
-                            <div class="input-group-append">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Product Cards -->
-
-                    <div id="flying-image">
-
-                        <div class="flying-card-1 mt-5">
-                        
+                    <div class="search mb-3">
+                        <form>
                             <div class="row">
-                        
-                                <div class="col-lg-4 mb-5 px-5">
-                                    <div class="card-1">
-                                        <div class="img mb-5">
-                                            <img src="./img/Photo-3.png" width="100%" alt="Product-1">
-                                        </div>
-                                        <div class="text">
-                                            <h5>WELCOME TO THE NEW-LOOK GLOBAL ACCESS DIAGNOSTICS (GADX) BRAND AND WEBSITE!</h5>
-                                            <p>As of June 1, Mologic Ltd and Global Access Diagnostics Ltd are combining their expertise in R&D
-                                                and manufacturing of rapid diagnostic tests under one brand.</p>
-                                            <button class="btn btn-outline-secondary mr-1 mb-3" data-toggle="modal"
-                                                data-target="#view-flying-image"><i class="fas fa-eye pr-1"></i> View</button>
-                                            <button class="btn btn-outline-info ml-1 mb-3" data-toggle="modal"
-                                                data-target="#edit-flying-image"><i class="fas fa-pen pr-1"></i> Edit</button>
-                                        </div>
-                                    </div>
+                                <div class="col-5">
+                                    <input type="date" id="input" class="form-control">
                                 </div>
-                        
-                                <div class="col-lg-4 mb-5 px-5">
-                                    <div class="card-2">
-                                        <div class="img mb-5">
-                                            <img src="./img/Photo-3.png" width="100%" alt="Product-1">
-                                        </div>
-                                        <div class="text">
-                                            <h5>WELCOME TO THE NEW-LOOK GLOBAL ACCESS DIAGNOSTICS (GADX) BRAND AND WEBSITE!</h5>
-                                            <p>As of June 1, Mologic Ltd and Global Access Diagnostics Ltd are combining their expertise in R&D
-                                                and manufacturing of rapid diagnostic tests under one brand.</p>
-                                            <button class="btn btn-outline-secondary mr-1 mb-3" data-toggle="modal"
-                                                data-target="#view-flying-image"><i class="fas fa-eye pr-1"></i> View</button>
-                                            <button class="btn btn-outline-info ml-1 mb-3" data-toggle="modal"
-                                                data-target="#edit-flying-image"><i class="fas fa-pen pr-1"></i> Edit</button>
-                                        </div>
-                                    </div>
+                                <div class="col-5">
+                                    <input type="date" id="input" class="form-control">
                                 </div>
-                        
-                                <div class="col-lg-4 mb-5 px-5">
-                                    <div class="card-2">
-                                        <div class="img mb-5">
-                                            <img src="./img/Photo-3.png" width="100%" alt="Product-1">
-                                        </div>
-                                        <div class="text">
-                                            <h5>Faizan TO THE NEW-LOOK GLOBAL ACCESS DIAGNOSTICS (GADX) BRAND AND WEBSITE!</h5>
-                                            <p>As of June 1, Mologic Ltd and Global Access Diagnostics Ltd are combining their expertise in R&D
-                                                and manufacturing of rapid diagnostic tests under one brand.</p>
-                                            <button class="btn btn-outline-secondary mr-1 mb-3" data-toggle="modal"
-                                                data-target="#view-flying-image"><i class="fas fa-eye pr-1"></i> View</button>
-                                            <button class="btn btn-outline-info ml-1 mb-3" data-toggle="modal"
-                                                data-target="#edit-flying-image"><i class="fas fa-pen pr-1"></i> Edit</button>
-                                        </div>
-                                    </div>
-                        
+                                <div class="col-2 text-right">
+                                    <button class="btn btn-success px-5 click" id="click" type="submit"><i class="fas fa-search pr-2"></i> Search</button>
                                 </div>
-                        
                             </div>
-    
-                        </div>
+                        </form>
 
                     </div>
+
+                    <!-- Card Contact Start -->
+                    <div id="contact-table">
+
+                        <div class="table-responsive my-5">
+
+                            <table class="table table-bordered text-center">
+
+                              <thead>
+
+                                <tr class="vertical-align-middle">
+                                  <th>#</th>
+                                  <th class="span">Full Name</th>
+                                  <th class="span">Company Name</th>
+                                  <th class="span">Phone No.</th>
+                                  <th class="span">Email</th>
+                                  <th class="span">Country</th>
+                                  <th class="span">Interested In</th>
+                                  <th class="message">Message</th>
+                                </tr>
+
+                              </thead>
+
+                              <tbody>
+
+                                <tr>
+                                  <td>1</td>
+                                  <td class="span">Muhammad Faizan Sarwar</td>
+                                  <td class="span">M.F.S</td>
+                                  <td class="span">03xx-xxxxxxx</td>
+                                  <td class="span">muhammadfaizansarwar@gmail.com</td>
+                                  <td class="span">Pakistan</td>
+                                  <td class="span">Testing</td>
+                                  <td class="message">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus cumque nostrum quasi facere harum adipisci. Sunt molestias ullam architecto incidunt cupiditate commodi! Ex tenetur officiis blanditiis sit nemo, maiores alias!</td>
+                                </tr>
+
+                                <tr>
+                                  <td>1</td>
+                                  <td class="span">Muhammad Ahmer Iqbal</td>
+                                  <td class="span">M.A.I</td>
+                                  <td class="span">03xx-xxxxxxx</td>
+                                  <td class="span">muhammadahmeriqbal@gmail.com</td>
+                                  <td class="span">Pakistan</td>
+                                  <td class="span">Testing</td>
+                                  <td class="message">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus cumque nostrum quasi facere harum adipisci. Sunt molestias ullam architecto incidunt cupiditate commodi! Ex tenetur officiis blanditiis sit nemo, maiores alias!</td>
+                                </tr>
+
+                              </tbody>
+
+                            </table>
+
+                          </div>
+
+                    </div>
+                    <!-- Card Contact End -->
 
                 </div>
                 <!-- /.container-fluid -->
@@ -254,34 +252,30 @@
         <i class="fas fa-angle-up"></i>
     </a>
 
-    <!-- Add Flying Image Modal -->
-    <div class="modal fade" id="add-flying-image" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Add Contact Modal -->
+    <div class="modal fade" id="add-contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Add Flying Image</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Add Contact</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="modal-card">
-                        <div class="img mb-5">
-                            <img src="./img/upload.png" alt="Products">
-                        </div>
                         <div class="form">
                             <form>
-    
+                    
                                 <div class="row">
                                     <div class="col-lg-12 mb-3">
                                         <input type="text" class="form-control" placeholder="Enter Sub-Heading (Optional)" id="name">
                                     </div>
                                 </div>
-    
+                    
                                 <div class="row">
                                     <div class="col-lg-12 mb-3">
-                                        <input type="text" class="form-control" placeholder="Enter Heading"
-                                            id="heading">
+                                        <input type="text" class="form-control" placeholder="Enter Heading" id="heading">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -289,123 +283,127 @@
                                         <textarea class="form-control" rows="4" id="comment" placeholder="Enter Description"></textarea>
                                     </div>
                                 </div>
-
+                    
                                 <div class="row">
                                     <div class="col-lg-12 mb-3">
-                                        <input type="text" class="form-control" placeholder="Enter Button Link"
-                                            id="button">
+                                        <input type="text" class="form-control" placeholder="Enter Button Link" id="button">
                                         <small id="buttonhelp" class="form-text text-muted">Redirect Page Link.</small>
                                     </div>
                                 </div>
-
+                    
                                 <div class="row">
                                     <div class="col-lg-12 mb-3">
-                                        <input type="text" class="form-control" placeholder="Enter Button Text"
-                                            id="button">
+                                        <input type="text" class="form-control" placeholder="Enter Button Text" id="button">
                                     </div>
                                 </div>
-    
+                    
                             </form>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-success" type="button">Add Flying Image</a>
+                    <a class="btn btn-success" type="button">Add Contact</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- View Flying Image Modal -->
-    <div class="modal fade" id="view-flying-image" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <!-- Edit Contact Modal -->
+    <div class="modal fade" id="view-contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">View Flying Image</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">View Message</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="modal-card">
-                        <div class="img mb-5">
-                            <img src="./img/product/Photo-1.png" alt="Products">
+
+                        <div class="message-card">
+                            
+                            <div class="icon text-center mt-3 mb-5">
+
+                                <i class="fas fa-sms fa-4x text-dark-300"></i>
+
+                            </div>
+    
+                            <div class="text mb-3">
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Full Name :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">Muhammad Faizan Sarwar</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Company Name :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">M-F-S</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Telephone No :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">30xx-xxxxxxx</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Email Address :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">muhammadfaizansarwar664@gmail.com</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Country :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">Pakistan</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Interested In :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">Testing</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="mb-2">Message :</p>
+                                    </div>
+                                    <div class="col-8">
+                                        <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur laborum corporis maxime eaque vel vero, voluptate repellendus, voluptas beatae commodi magnam nemo praesentium enim est, quasi aliquam iusto eius ipsa?</p>
+                                    </div>
+                                </div>
+
+                            </div>
+    
                         </div>
-                        <div class="text">
-                            <h5>CAPABILITIES</h5>
-                            <h2>WELCOME TO THE NEW-LOOK GLOBAL ACCESS DIAGNOSTICS (GADX) BRAND AND WEBSITE!</h2>
-                            <p>As of June 1, Mologic Ltd and Global Access Diagnostics Ltd are combining their expertise in R&D and manufacturing of rapid diagnostic tests under one brand.</p>
-                            <a href="#">Learn More --></a>
-                        </div>
+
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-danger" type="button">Delete Product</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Edit Flying Image Modal -->
-    <div class="modal fade" id="edit-flying-image" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Edit Flying Image</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="modal-card">
-                        <div class="img mb-5">
-                            <img src="./img/Photo-3.png" alt="Products">
-                        </div>
-                        <div class="form">
-                            <form>
-    
-                                <div class="row">
-                                    <div class="col-lg-12 mb-3">
-                                        <input type="text" class="form-control" placeholder="Enter Sub-Heading (Optional)" id="name">
-                                    </div>
-                                </div>
-    
-                                <div class="row">
-                                    <div class="col-lg-12 mb-3">
-                                        <input type="text" class="form-control" placeholder="Enter Heading"
-                                            id="heading">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12 mb-3">
-                                        <textarea class="form-control" rows="4" id="comment" placeholder="Enter Description"></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-lg-12 mb-3">
-                                        <input type="text" class="form-control" placeholder="Enter Button Link"
-                                            id="button">
-                                        <small id="buttonhelp" class="form-text text-muted">Redirect Page Link.</small>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-lg-12 mb-3">
-                                        <input type="text" class="form-control" placeholder="Enter Button Text"
-                                            id="button">
-                                    </div>
-                                </div>
-    
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-success" type="button">Save Changes</a>
+                    <a class="btn btn-danger" type="button">Delete Message</a>
                 </div>
             </div>
         </div>
@@ -477,6 +475,26 @@
         </div>
     </div>
 
+    <!-- Confirm Delete -->
+    <div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ready to Delete?</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">Are You Sure To Delete This Message? </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <a class="btn btn-danger" type="button">Confirm Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -486,7 +504,6 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
-    <script src="js/sb-admin-2.js"></script>
 
 </body>
 
