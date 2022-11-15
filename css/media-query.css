@@ -1,1 +1,35 @@
-
+@media only screen and (max-width: 1920px) and (min-width: 1542px){
+  .product-card-1 .card-1 .text .btn-outline-info {
+    margin: 50px 0 0 0;
+    padding: 8px 46px;
+  }
+  .product-card-1 .card-2 .text .btn-outline-info {
+    margin: 25px 0 0 0;
+    padding: 8px 40px;
+  }
+  .product-card-1 .card-3 .text .btn-outline-info {
+    margin: 50px 0 0 0;
+    padding: 8px 40px;
+  }
+  .product-card-1 .card-4 .text .btn-outline-info {
+    margin: 100px 0 0 0;
+    padding: 8px 40px;
+  }
+  .product-card-1 .card-5 .text .btn-outline-info {
+    margin: 150px 0 0 0;
+    padding: 8px 40px;
+  }
+  .product-card-1 .card-6 .text .btn-outline-info {
+    margin: 80px 0 0 0;
+    padding: 8px 40px;
+  }
+  
+  .flying-card-1 .card-1 .text .btn-outline-info {
+    margin: 150px 0 0 0;
+    padding: 8px 40px;
+  }
+  .flying-card-1 .card-2 .text .btn-outline-info {
+    margin: 150px 0 0 0;
+    padding: 8px 40px;
+  }
+}
